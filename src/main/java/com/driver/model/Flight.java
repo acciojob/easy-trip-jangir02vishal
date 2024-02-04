@@ -4,7 +4,7 @@ import java.util.Date;
 
 public class Flight {
 
-    private int flightId; //This is a unique key for a flight
+    private int flightId; // This is a unique key for a flight
 
     private City fromCity;
 
@@ -76,5 +76,4 @@ public class Flight {
     public void setDuration(double duration) {
         this.duration = duration;
     }
-
 }
