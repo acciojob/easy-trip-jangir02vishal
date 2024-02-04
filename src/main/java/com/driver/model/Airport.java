@@ -1,14 +1,12 @@
 package com.driver.model;
 
-
-
 public class Airport {
 
-    private String airportName; //This is the unique key
+    private String airportName; // This is the unique key
 
     private int noOfTerminals;
 
-    private City city;  //GIVEN : There will be only 1 airport in 1 city
+    private City city; // GIVEN: There will be only 1 airport in 1 city
 
     public Airport() {
     }
